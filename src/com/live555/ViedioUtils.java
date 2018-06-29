@@ -40,7 +40,7 @@ public class ViedioUtils {
 					}
 
 					if (holder != null) {
-						sH264Decoder = new H264Decoder(holder, "video/avc", 1280, 720, 30);
+						sH264Decoder = new H264Decoder(holder, "video/avc", 640, 480, 25);
 					} else {
 						return;
 					}
